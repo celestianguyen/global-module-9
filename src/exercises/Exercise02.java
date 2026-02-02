@@ -75,7 +75,7 @@ public class Exercise02 {
             if (!s.isEmpty()) return s;
             System.out.println("  Value cannot be empty.");
         }
-    };
+    }
     private static double readDouble(String prompt){
         while (true){
             System.out.print(prompt);
